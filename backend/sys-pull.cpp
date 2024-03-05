@@ -10,6 +10,9 @@
 #include <httplib.h>
 #include <iostream>
 #include <sys/sysinfo.h>
+#include <json.hpp>
+
+using json = nlohmann::json;
 
 using namespace std;
 using namespace httplib;
